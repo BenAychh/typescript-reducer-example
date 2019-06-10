@@ -1,6 +1,6 @@
 import * as fromStore from './src/store';
 
-const initialState = fromStore.reducer() as fromStore.IUserState;
+const initialState = fromStore.reducer();
 
 console.log('STATES');
 console.log(initialState);
